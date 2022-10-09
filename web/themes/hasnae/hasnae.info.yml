@@ -1,0 +1,19 @@
+name: hasnae
+type: theme
+base theme: classy
+description: 'Thème personnalisé du site hasnae'
+
+# # Libraries
+# libraries:
+#   - acaps/global-styling
+
+# Regions
+regions:
+  header: 'Header'
+  content: 'Contenu'
+  footer: 'Footer'
+  
+version: VERSION
+core: 8.x
+core_version_requirement: ^8 || ^9
+project: 'Test'

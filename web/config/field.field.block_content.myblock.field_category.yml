@@ -1,0 +1,27 @@
+uuid: ed26a784-81cc-4975-9ce2-a0b51bd417ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.myblock
+    - field.storage.block_content.field_category
+id: block_content.myblock.field_category
+field_name: field_category
+entity_type: block_content
+bundle: myblock
+label: category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

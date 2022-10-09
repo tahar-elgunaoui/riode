@@ -1,0 +1,21 @@
+uuid: c8569c49-33cd-4f18-9e4b-42d274396a60
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - hasnae
+id: cart
+theme: hasnae
+region: header
+weight: 0
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  label_display: visible
+  provider: commerce_cart
+  dropdown: true
+visibility: {  }

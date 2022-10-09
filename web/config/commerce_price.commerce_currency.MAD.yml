@@ -1,0 +1,9 @@
+uuid: 4a2f29e2-5c2d-4a50-bcb2-5a190c2e3a23
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: MAD
+name: 'Moroccan Dirham'
+numericCode: '504'
+symbol: MAD
+fractionDigits: 2

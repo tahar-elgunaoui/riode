@@ -1,0 +1,22 @@
+uuid: e7294d2e-27be-4e97-8e46-95a9a5543ae2
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - hasnae
+_core:
+  default_config_hash: bYvyEzJ7UcmjXZAYLxb4Qb_J77K9bPbk4ealdap31FY
+id: hasnae_help
+theme: hasnae
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

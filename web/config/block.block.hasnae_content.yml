@@ -1,0 +1,22 @@
+uuid: d77e61fb-ac61-4811-afa7-5d6afabc1490
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hasnae
+_core:
+  default_config_hash: 6_eJxtyfANKFE_nfriHKgrARRIPHH88sI6jvQ4EHbBc
+id: hasnae_content
+theme: hasnae
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: df7c625b-a914-431a-b5a9-f32777992ea5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hasnae
+_core:
+  default_config_hash: gv5JXTvQXjlMY6PXrfxzcLMjMg4074WiEQCy7ZSMvK4
+id: hasnae_local_actions
+theme: hasnae
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

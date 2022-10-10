@@ -1,0 +1,15 @@
+<?php
+// Implements hook_theme().
+function helper_theme()
+  {
+    $path_to_themes = drupal_get_path('module', 'helper') . '/templates';
+    return [
+      'topheader_block' => [
+        'variables' => [
+          'items' => null
+        ],
+        'path' => $path_to_themes . '/block'
+      ]
+    ];
+  }
+

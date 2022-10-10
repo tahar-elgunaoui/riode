@@ -1,0 +1,18 @@
+global-styling:
+  Version: 1.x
+  css:
+    base:
+      assets/vendor/fontawesome-free/css/all.min.css: {}
+      assets/vendor/animate/animate.min.css: {}
+      assets/vendor/magnific-popup/magnific-popup.min.css: {}
+      assets/vendor/owl-carousel/owl.carousel.min.css: {}
+      assets/css/demo1.min.css: {}
+
+  js:
+    assets/vendor/jquery/jquery.min.js: {}
+    assets/vendor/parallax/parallax.min.js: {}
+    assets/vendor/imagesloaded/imagesloaded.pkgd.min.js: {}
+    assets/vendor/elevatezoom/jquery.elevatezoom.min.js: {}
+    assets/vendor/magnific-popup/jquery.magnific-popup.min.js: {}
+    assets/vendor/owl-carousel/owl.carousel.min.js: {}
+    assets/js/main.min.js: {}

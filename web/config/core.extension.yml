@@ -43,6 +43,7 @@ module:
   file: 0
   filter: 0
   help: 0
+  helper: 0
   history: 0
   image: 0
   inline_entity_form: 0
@@ -79,4 +80,5 @@ theme:
   stable: 0
   classy: 0
   hasnae: 0
+  riode: 0
 profile: standard

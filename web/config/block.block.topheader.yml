@@ -1,0 +1,36 @@
+uuid: 3777749c-18e4-4f18-85b7-b5e013a54816
+langcode: en
+status: true
+dependencies:
+  module:
+    - helper
+    - system
+    - user
+  theme:
+    - riode
+id: topheader
+theme: riode
+region: header
+weight: 0
+provider: null
+plugin: topheader_block
+settings:
+  id: topheader_block
+  label: 'Top Header'
+  label_display: visible
+  provider: helper
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: ''
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      content_editor: content_editor
+      administrator: administrator

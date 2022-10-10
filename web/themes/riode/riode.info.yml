@@ -1,0 +1,20 @@
+name: riode
+type: theme
+base theme: classy
+description: 'Thème personnalisé du site riode'
+
+# Libraries
+libraries:
+  - riode/global-styling
+
+# Regions
+regions:
+  header: 'Header'
+  content: 'Contenu'
+  footer: 'Footer'
+  others: 'Others'
+  
+version: VERSION
+core: 8.x
+core_version_requirement: ^8 || ^9
+project: 'Test'
